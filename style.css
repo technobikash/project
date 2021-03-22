@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 100%;
+	background-color: green;
+	margin: auto;
+	padding: 20px;
+}
+.container h1,p{
+	text-align: center;
+
+}
+input , textarea{
+	font-size: 20px;
+	width: 100%;
+	margin:10px auto;
+	padding: 10px;
+	border: 2px solid red;
+	border-radius: 20px;
+	outline: none;
+
+}
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.btn{
+	color: white;
+	background-color: purple;
+	font-size: 20px;
+	margin: 8px;
+	padding: 8px;
+	border: 2px solid purple;
+	border-radius: 10px;
+
+}
